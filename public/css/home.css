@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    height: auto;
+    padding-bottom: 3rem;
+}
+.navbar-brand img{
+    width: 70px; 
+
+}
+.nav-item a{
+    color: white;
+    font-weight: 500;
+}
+.nav-item{
+    margin-right: 2rem;
+}
+
+#carouselExampleControls {
+    max-height: 600px; /* Atur tinggi maksimum carousel */
+    overflow: hidden;  /* Pastikan konten yang lebih tinggi dari ini disembunyikan */
+}
+
+#carouselExampleControls .carousel-inner .carousel-item img {
+    max-height: 600px; /* Atur tinggi maksimum gambar */
+    object-fit: cover; /* Sesuaikan gambar untuk mengisi kontainer dengan cara yang proporsional */
+}
+.kartu {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 60vh;
+    width: 50vh;
+    margin-right: 2rem;
+    flex: 0 0 auto; /* Ensure the card doesn't shrink or grow */
+}
+
+.wrap-kartu {
+    overflow-x: auto; /* Allow horizontal scrolling */
+    max-width: 1150px;
+    display: flex;
+    padding: 1rem; /* Optional: Add padding for better spacing */
+    gap: 1rem; /* Optional: Add gap between cards */
+    scroll-behavior: smooth; /* Optional: Smooth scrolling */
+}
+
+/* Style scrollbar */
+.wrap-kartu::-webkit-scrollbar {
+    width: 5px; /* Set width of scrollbar */
+    height: 7px;
+}
+
+.wrap-kartu::-webkit-scrollbar-track {
+    background: transparent; /* Set background color of scrollbar track */
+}
+
+.wrap-kartu::-webkit-scrollbar-thumb {
+    background-color: #dddddd; /* Set color of scrollbar thumb */
+    border-radius: 10px; /* Set border radius of scrollbar thumb */
+}
+
+.wrap-brand-img img{
+    width: 70px;
+    height: 70px;
+}
+.kartu-brand{
+    height: 25vh;
+   text-align: center;
+   padding-top: 1rem;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.wrap-brand-img{
+    border-bottom: 1px solid rgb(206, 206, 206);
+margin-bottom: 0.5rem;
+    padding-bottom: 1rem;
+}
+.kartu-brand a{
+    text-decoration: none;
+    color: black;
+    }
+    .kartu-brand a:hover{
+        color: black;
+}
+
+.aktif-red{
+border-bottom: 2px solid red;
+}
+.wrap-show-car{
+    padding: 2rem;
+    margin-top: 2rem;
+    height: auto;
+    padding-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    /* Set the desired height for the carousel */
